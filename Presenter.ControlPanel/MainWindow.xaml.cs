@@ -18,7 +18,11 @@ namespace Presenter.ControlPanel
             ScreenManager.Instance.KillAllPresentations();
 
             if (ScreenManager.Instance.Presentations != null)
-                ScreenManager.Instance.Presentations.Clear();
+
+                for (int i = 0; i < ScreenManager.Instance.Presentations.Count; i++)
+                {
+                    ScreenManager.Instance.Presentations.Clear();
+                }
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -29,6 +33,7 @@ namespace Presenter.ControlPanel
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
+            this.button_Click(sender, e);
             ScreenManager.Instance.Run();
         }
     }

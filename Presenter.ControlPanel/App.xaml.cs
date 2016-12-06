@@ -19,14 +19,19 @@ namespace Presenter.ControlPanel
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            //ScreenManager.Instance.Run();
         }
 
         private void Application_Exit(object sender, ExitEventArgs e)
         {
-            if (ScreenManager.Instance.Presentations == null) return;
+            if (ScreenManager.Instance.Presentations == null)
+            {
+                return;
+            }
+
             foreach (var process in ScreenManager.Instance.Presentations.Values)
-                if(!process.HasExited) process.Kill();
+            {
+                if (!process.HasExited) process.Kill();
+            }
         }
      
     }
