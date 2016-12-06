@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Presenter.ControlPanel"
         mc:Ignorable="d"
-        Title="Mar de Oro" Height="321.958" Width="470.603">
+        Title="Mar de Oro" Height="321.958" Width="558.649">
     <Grid RenderTransformOrigin="0.336,0.04" Margin="0,0,2,57">
         <Button x:Name="button" Content="Cerrar todas las presentaciones" HorizontalAlignment="Left" Margin="15,156,0,0" VerticalAlignment="Top" Width="187" Click="button_Click" Height="43"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="20,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>

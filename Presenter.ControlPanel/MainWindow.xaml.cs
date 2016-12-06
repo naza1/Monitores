@@ -11,6 +11,7 @@ namespace Presenter.ControlPanel
         public MainWindow()
         {
             InitializeComponent();
+            this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
         }
 
         private void button_Click(object sender, RoutedEventArgs e)

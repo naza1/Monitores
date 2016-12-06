@@ -141,6 +141,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="favicon.ico" />
+    <Resource Include="Resources\Presentations\themes\navidad\3\precios.txt" />
+    <Resource Include="Resources\Presentations\themes\navidad\4\precios.txt" />
+    <Resource Include="Resources\Presentations\themes\navidad\5\precios.txt" />
+    <Resource Include="Resources\Presentations\themes\navidad\6\precios.txt" />
+    <Resource Include="Resources\Presentations\themes\navidad\5\p.png" />
+    <Resource Include="Resources\Presentations\themes\navidad\4\p.png" />
+    <Resource Include="Resources\Presentations\themes\navidad\3\p.png" />
+    <Resource Include="Resources\Presentations\themes\navidad\6\p.png" />
     <Content Include="Resources\template.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
