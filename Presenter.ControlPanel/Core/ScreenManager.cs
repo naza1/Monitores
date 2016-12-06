@@ -66,9 +66,7 @@ namespace Presenter.Core.ScreeenManager
 
             foreach (var presentation in presentations)
             {
-                //if (Presentations.ContainsKey(presentation))
                 Presentations.Add(presentation, StartPresentation(presentation));
-                //else StartPresentation(presentation);
             }
         }
 

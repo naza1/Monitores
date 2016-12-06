@@ -35,6 +35,8 @@ namespace Presenter.ControlPanel
         {
             this.button_Click(sender, e);
             ScreenManager.Instance.Run();
+            this.textBlock1.Text = ScreenManager.Instance.Presentations.Count.ToString();
+            this.textBlock.Text = "Cantidad de pantallas detectadas:";
         }
     }
 }
