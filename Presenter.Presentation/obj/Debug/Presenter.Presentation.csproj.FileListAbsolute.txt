@@ -1,0 +1,9 @@
+C:\Users\nazar\Desktop\Presenter-master\Presenter.Presentation\bin\Debug\Presenter.Presentation.exe.config
+C:\Users\nazar\Desktop\Presenter-master\Presenter.Presentation\bin\Debug\Presenter.Presentation.exe
+C:\Users\nazar\Desktop\Presenter-master\Presenter.Presentation\bin\Debug\Presenter.Presentation.pdb
+C:\Users\nazar\Desktop\Presenter-master\Presenter.Presentation\obj\Debug\Presenter.Presentation.Form1.resources
+C:\Users\nazar\Desktop\Presenter-master\Presenter.Presentation\obj\Debug\Presenter.Presentation.Properties.Resources.resources
+C:\Users\nazar\Desktop\Presenter-master\Presenter.Presentation\obj\Debug\Presenter.Presentation.csproj.GenerateResource.Cache
+C:\Users\nazar\Desktop\Presenter-master\Presenter.Presentation\obj\Debug\Presenter.Presentation.exe
+C:\Users\nazar\Desktop\Presenter-master\Presenter.Presentation\obj\Debug\Presenter.Presentation.pdb
+C:\Users\nazar\Desktop\Presenter-master\Presenter.Presentation\obj\Debug\Presenter.Presentation.csprojResolveAssemblyReference.cache
