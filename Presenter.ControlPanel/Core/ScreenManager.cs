@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Text;
 
 namespace Presenter.Core.ScreeenManager
 {
@@ -86,11 +88,11 @@ namespace Presenter.Core.ScreeenManager
             var backgroundFilePath = $"{_presentationsDirectory}/{presentation}/p.png";
             var preciosFilePath = $"{_presentationsDirectory}/{presentation}/precios.txt";
 
-            var f = File.ReadAllText(preciosFilePath);
+            var listado = File.ReadAllText(preciosFilePath);
 
             // TODO: instead of use a HTML file, use a zip with CSS, JS and other resources
             var htmlTemplate = File.ReadAllText(_defaultHtmlTemplatePath).Replace("{presentation}", $"file:///{backgroundFilePath}")
-                                    .Replace("{precios}", f);
+                                    .Replace("{precios}", listado);
 
             // TODO: Add extra logic: HTML Wrappers/ javascript logic
             var filePath = Path.Combine(presentationDataDirectory, "presentation.html");
