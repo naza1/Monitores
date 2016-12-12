@@ -12,6 +12,15 @@ namespace Presenter.ControlPanel
         {
             InitializeComponent();
             this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+            comboBox.Items.Add("Calzones");
+            comboBox.Items.Add("Empanadas");
+            comboBox.Items.Add("Fideos");
+            comboBox.Items.Add("Lasagna");
+            comboBox.Items.Add("Ñoquis");
+            comboBox.Items.Add("Pizzas");
+            comboBox.Items.Add("Ravioles");
+            comboBox.Items.Add("Tallarines");
+            comboBox.Items.Add("Tartas");
         }
 
         private void button_Click(object sender, RoutedEventArgs e)

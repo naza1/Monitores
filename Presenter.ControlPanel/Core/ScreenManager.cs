@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Net;
-using System.Text;
 
 namespace Presenter.Core.ScreeenManager
 {
@@ -86,7 +84,20 @@ namespace Presenter.Core.ScreeenManager
             var presentationDataDirectory = PrepareAndGetPresentationDataDirectory(presentation);
 
             var backgroundFilePath = $"{_presentationsDirectory}/{presentation}/p.png";
-            var preciosFilePath = $"{_presentationsDirectory}/{presentation}/precios.txt";
+
+            string preciosFilePath = String.Empty;
+            if (presentation == 1)
+                preciosFilePath = $"{_presentationsDirectory}/{presentation}/Calzones.txt";
+            if (presentation == 2)
+                preciosFilePath = $"{_presentationsDirectory}/{presentation}/Empanadas.txt";
+            if (presentation == 3)
+                preciosFilePath = $"{_presentationsDirectory}/{presentation}/Fideos.txt";
+            if (presentation == 4)
+                preciosFilePath = $"{_presentationsDirectory}/{presentation}/Lasagna.txt";
+            if (presentation == 5)
+                preciosFilePath = $"{_presentationsDirectory}/{presentation}/Ñoquis.txt";
+            if (presentation == 6)
+                preciosFilePath = $"{_presentationsDirectory}/{presentation}/Pizzas.txt";
 
             var listado = File.ReadAllText(preciosFilePath);
 

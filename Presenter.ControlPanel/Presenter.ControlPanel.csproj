@@ -131,20 +131,20 @@
     <Resource Include="Resources\Presentations\themes\pascuas\2\TallarinVerde.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Presentations\themes\navidad\1\precios.txt">
+    <Resource Include="Resources\Presentations\themes\navidad\1\Calzones.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Presentations\themes\navidad\2\precios.txt">
+    <Resource Include="Resources\Presentations\themes\navidad\2\Empanadas.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\mardeoro.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="favicon.ico" />
-    <Resource Include="Resources\Presentations\themes\navidad\3\precios.txt" />
-    <Resource Include="Resources\Presentations\themes\navidad\4\precios.txt" />
-    <Resource Include="Resources\Presentations\themes\navidad\5\precios.txt" />
-    <Resource Include="Resources\Presentations\themes\navidad\6\precios.txt" />
+    <Resource Include="Resources\Presentations\themes\navidad\3\Fideos.txt" />
+    <Resource Include="Resources\Presentations\themes\navidad\4\Lasagna.txt" />
+    <Resource Include="Resources\Presentations\themes\navidad\5\Ñoquis.txt" />
+    <Resource Include="Resources\Presentations\themes\navidad\6\Pizzas.txt" />
     <Resource Include="Resources\Presentations\themes\navidad\5\p.png" />
     <Resource Include="Resources\Presentations\themes\navidad\4\p.png" />
     <Resource Include="Resources\Presentations\themes\navidad\3\p.png" />
